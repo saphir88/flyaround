@@ -15,7 +15,7 @@
             </tr>
             <tr>
                 <th>Manufacturer</th>
-                <td>{{ review.publicationDate }}</td>
+                <td>{{ review.publicationDate|date('Y-m-d H:i:s') }}</td>
             </tr>
             <tr>
                 <th>Cruisespeed</th>

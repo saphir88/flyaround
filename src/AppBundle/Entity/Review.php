@@ -151,5 +151,37 @@ class Review
     {
         return $this->note;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getUserRated()
+    {
+        return $this->userRated;
+    }
+
+    /**
+     * @param mixed $userRated
+     */
+    public function setUserRated($userRated)
+    {
+        $this->userRated = $userRated;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getReviewAuthor()
+    {
+        return $this->reviewAuthor;
+    }
+
+    /**
+     * @param mixed $reviewAuthor
+     */
+    public function setReviewAuthor($reviewAuthor)
+    {
+        $this->reviewAuthor = $reviewAuthor;
+    }
 }
 
